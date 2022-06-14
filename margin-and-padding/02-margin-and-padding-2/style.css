@@ -3,6 +3,10 @@ body {
   font-family: sans-serif;
 }
 
+h1{
+  margin: 0;
+}
+
 .card {
   width: 400px;
   background: #fff;
@@ -11,17 +15,28 @@ body {
 
 .title {
   background: #e3f4ff;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-top: 8px;
+  
 }
 
 .button-container {
   background: #e3f4ff;
+  margin-top: 8px;
+  text-align: center;
+}
+.card, .button-container {
+  padding: 8px;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+margin: 0 auto;
 }
